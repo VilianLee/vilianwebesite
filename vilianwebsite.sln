@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "gitweb", "gitweb\gitweb.vbproj", "{950B7E22-AEE6-4777-9534-5114A32FF1E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{950B7E22-AEE6-4777-9534-5114A32FF1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950B7E22-AEE6-4777-9534-5114A32FF1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950B7E22-AEE6-4777-9534-5114A32FF1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950B7E22-AEE6-4777-9534-5114A32FF1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
