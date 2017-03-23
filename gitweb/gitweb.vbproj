@@ -81,6 +81,69 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\resume\resume.css" />
+    <Content Include="iconfont\demo.css" />
+    <Content Include="iconfont\demo_fontclass.html" />
+    <Content Include="iconfont\demo_symbol.html" />
+    <Content Include="iconfont\demo_unicode.html" />
+    <Content Include="iconfont\iconfont.css" />
+    <Content Include="iconfont\iconfont.js" />
+    <Content Include="iconfont\iconfont.svg" />
+    <Content Include="images\resume\myphoto.jpg" />
+    <Content Include="images\skill_ico\AngularJS-Shield-large.png" />
+    <Content Include="images\skill_ico\App-Adobe-Photoshop-icon.png" />
+    <Content Include="images\skill_ico\boot.png" />
+    <Content Include="images\skill_ico\html.png" />
+    <Content Include="images\skill_ico\JQuery.png" />
+    <Content Include="images\skill_ico\nodejs-512.png" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery-3.1.1.min.js" />
+    <Content Include="js\resume\pageswitch.js" />
+    <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap-theme.css" />
+    <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" />
+    <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap.css" />
+    <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap.min.css" />
+    <Content Include="lib\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="lib\bootstrap-3.3.5-dist\js\bootstrap.js" />
+    <Content Include="lib\bootstrap-3.3.5-dist\js\bootstrap.min.js" />
+    <Content Include="lib\bootstrap-3.3.5-dist\js\npm.js" />
+    <Content Include="lib\jQueryTimelinr20160301\css\jq22-demo.css" />
+    <Content Include="lib\jQueryTimelinr20160301\css\normalize.css" />
+    <Content Include="lib\jQueryTimelinr20160301\css\style.css" />
+    <Content Include="lib\jQueryTimelinr20160301\css\style_v.css" />
+    <Content Include="lib\jQueryTimelinr20160301\fonts\icomoon.svg" />
+    <Content Include="lib\jQueryTimelinr20160301\images\1.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\10.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\2.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\3.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\4.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\5.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\6.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\7.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\8.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\9.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\biggerdot.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\dot.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\grad_bottom.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\grad_left.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\grad_right.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\grad_top.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\next.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\next_v.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\prev.png" />
+    <Content Include="lib\jQueryTimelinr20160301\images\prev_v.png" />
+    <Content Include="lib\jQueryTimelinr20160301\index.html" />
+    <Content Include="lib\jQueryTimelinr20160301\index2.html" />
+    <Content Include="lib\jQueryTimelinr20160301\index3.html" />
+    <Content Include="lib\jQueryTimelinr20160301\js\jquery-1.11.0.min.js" />
+    <Content Include="lib\jQueryTimelinr20160301\js\jquery.timelinr-0.9.6.js" />
+    <Content Include="lib\particles\css\style.css" />
+    <Content Include="lib\particles\index.html" />
+    <Content Include="lib\particles\js\app.js" />
+    <Content Include="lib\particles\js\lib\stats.js" />
+    <Content Include="lib\particles\particles.min.js" />
+    <Content Include="readme.txt" />
+    <Content Include="resume.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +176,18 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="iconfont\iconfont.eot" />
+    <Content Include="iconfont\iconfont.ttf" />
+    <Content Include="iconfont\iconfont.woff" />
+    <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap-theme.css.map" />
+    <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap.css.map" />
+    <Content Include="lib\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="lib\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="lib\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="lib\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="lib\jQueryTimelinr20160301\fonts\icomoon.eot" />
+    <Content Include="lib\jQueryTimelinr20160301\fonts\icomoon.ttf" />
+    <Content Include="lib\jQueryTimelinr20160301\fonts\icomoon.woff" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -128,6 +203,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\public\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
