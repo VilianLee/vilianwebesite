@@ -1,0 +1,9 @@
+F:\github\vilianwebesite\vilianwebsite\gitweb\bin\gitweb.dll.config
+F:\github\vilianwebesite\vilianwebsite\gitweb\bin\gitweb.dll
+F:\github\vilianwebesite\vilianwebsite\gitweb\bin\gitweb.pdb
+F:\github\vilianwebesite\vilianwebsite\gitweb\bin\gitweb.xml
+F:\github\vilianwebesite\vilianwebsite\gitweb\obj\Debug\gitweb.Resources.resources
+F:\github\vilianwebesite\vilianwebsite\gitweb\obj\Debug\gitweb.vbproj.GenerateResource.Cache
+F:\github\vilianwebesite\vilianwebsite\gitweb\obj\Debug\gitweb.dll
+F:\github\vilianwebesite\vilianwebsite\gitweb\obj\Debug\gitweb.xml
+F:\github\vilianwebesite\vilianwebsite\gitweb\obj\Debug\gitweb.pdb

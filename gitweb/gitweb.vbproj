@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\resume\resume.css" />
+    <Content Include="css\resume\vilianresume.css" />
     <Content Include="iconfont\demo.css" />
     <Content Include="iconfont\demo_fontclass.html" />
     <Content Include="iconfont\demo_symbol.html" />
@@ -107,6 +108,11 @@
     <Content Include="lib\bootstrap-3.3.5-dist\js\bootstrap.js" />
     <Content Include="lib\bootstrap-3.3.5-dist\js\bootstrap.min.js" />
     <Content Include="lib\bootstrap-3.3.5-dist\js\npm.js" />
+    <Content Include="lib\fullpages\jquery.fullPage.css" />
+    <Content Include="lib\fullpages\jquery.fullPage.min.js" />
+    <Content Include="lib\fullpages\vendors\jquery.easings.min.js" />
+    <Content Include="lib\fullpages\vendors\scrolloverflow.js" />
+    <Content Include="lib\fullpages\vendors\scrolloverflow.min.js" />
     <Content Include="lib\jQueryTimelinr20160301\css\jq22-demo.css" />
     <Content Include="lib\jQueryTimelinr20160301\css\normalize.css" />
     <Content Include="lib\jQueryTimelinr20160301\css\style.css" />
@@ -144,6 +150,7 @@
     <Content Include="lib\particles\particles.min.js" />
     <Content Include="readme.txt" />
     <Content Include="resume.html" />
+    <Content Include="vilianresume.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
