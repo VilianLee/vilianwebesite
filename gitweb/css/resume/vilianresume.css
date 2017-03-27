@@ -1,3 +1,235 @@
 ﻿body {
     font-size:62.5%;
 }
+ul,ol,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h3,h4,h5,h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 14px;
+}
+a{
+    color: #ffffff;
+}
+a:hover,a:focus{
+    color: #ffffff;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.intro {
+    display: -webkit-flex; /* Safari */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+#section0 .title{
+    color: #ffffff;
+    width:100%;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-animation: sectitle0 1s ease-in-out 100ms forwards;
+    animation: sectitle0 1s ease-in-out 100ms forwards;
+}
+#section0 .position{
+    width:100%;
+    color: #ffffff;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-animation: sec0 1s ease-in-out 100ms forwards;
+    animation: sec0 1s ease-in-out 100ms forwards;
+}
+#section0 .personnal-des{
+    animation: emerge 2.5s forwards;
+}
+#section0 .gratuetion{
+    opacity: 0;
+    animation: emerge 2s forwards;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;;
+}
+.section0-box {
+    max-width:1170px;
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    padding:30px 15px;
+}
+.section0-box p {
+    padding:0 15px;
+}
+#section0 p {
+    color:#ffffff;
+}
+#section0 .job{
+    opacity: 0;
+    animation: emerge 2s forwards;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+    text-align:center;
+}
+
+@-webkit-keyframes sectitle0{
+    0%{
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    100%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes sectitle0{
+    0%{
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    100%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes sec0{
+    0%{
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes sec0{
+    0%{
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes emerge {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.myphoto{
+    margin-bottom: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../../images/resume/myphoto.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 250px;
+    background-size: 100%;
+    border: solid 3px #ffffff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    animation: emerge 2s;
+}
+#particles-js {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+#particles-js canvas {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.skill-title{
+    border-right: solid 1px #00796b;
+    height: 390px;
+}
+.skill-title h2{
+    margin-top: 180px;
+}
+.skills-list{
+    text-align: left;
+    margin-bottom: 40px;
+}
+.skills-ico{
+    text-align: center;
+}
+.skills-ico img{
+    max-width: 100%;
+    max-height: 80px;
+}
+.skills-des p{
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.skills-des h3{
+    line-height: 26px;
+}
+
+
+
+
+@media(max-width:420px) {
+    h3, h4, h5, h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-size: 14px;
+    }
+
+    a {
+        color: #ffffff;
+    }
+
+        a:hover, a:focus {
+            color: #ffffff;
+        }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+    .myphoto {
+        margin-bottom:15px;
+        width:128px;
+        height:128px;
+    }
+    .section0-box {
+        padding:15px;
+    }
+}
